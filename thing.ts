@@ -7,7 +7,7 @@ type Thing = {
     image?: ImageObject | URL;
     mainEntityOfPage?: CreativeWork | URL;
     name?: string;
-    potentialAction?: Action;
+    //potentialAction?: SemAction;
     sameAs?: URL;
     subjectOf?: CreativeWork | Event;
     url?: URL;
