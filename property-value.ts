@@ -1,3 +1,0 @@
-type PropertyValue = {
-    value?: string;
-};
