@@ -1,7 +1,7 @@
 type Person = {
     additionalName?: string;
     //address?: PostalAddress | string;
-    //affiliation?: Organization;
+    affiliation?: Organization;
     //agentInteractionStatistic?: InteractionCounter;
     //alumniOf?: EducationalOrganization | Organization;
     award?: string;
@@ -19,7 +19,7 @@ type Person = {
     familyName?: string;
     faxNumber?: string;
     follows?: Person;
-    //funder?: Organization | Person;
+    funder?: Organization | Person;
     //funding?: Grant;
     //gender?: GenderType | string;
     givenName?: string;
@@ -51,13 +51,13 @@ type Person = {
     relatedTo?: Person;
     //seeks?: Demand;
     sibling?: Person;
-    //sponsor?: Organization | Person;
+    sponsor?: Organization | Person;
     spouse?: Person;
     taxID?: string;
     telephone?: string;
     vatID?: string;
     weight?: QuantitativeValue;
     //workLocation?: ContactPoint | Place;
-    //worksFor?: Organization;
+    worksFor?: Organization;
   };
   

@@ -1,9 +1,9 @@
 type Order = {
     //acceptedOffer?: Offer;
     //billingAddress?: PostalAddress;
-    //broker?: Organization | Person;
+    broker?: Organization | Person;
     confirmationNumber?: string;
-    //customer?: Organization | Person;
+    customer?: Organization | Person;
     discount?: number | string;
     discountCode?: string;
     discountCurrency?: string;
@@ -18,5 +18,5 @@ type Order = {
     //paymentMethod?: PaymentMethod;
     paymentMethodId?: string;
     paymentUrl?: URL;
-    //seller?: Organization | Person;
+    seller?: Organization | Person;
 };  
