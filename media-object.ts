@@ -1,3 +1,3 @@
-type MediaObject = {
+export type MediaObject = {
     encodingFormat?: string;
 };

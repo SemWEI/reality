@@ -1,3 +1,3 @@
-type PropertyValue = {
+export type PropertyValue = {
     value?: string;
 };

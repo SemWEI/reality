@@ -1,4 +1,12 @@
-type Organization = Thing & {
+import { Article } from "./article";
+import { CreativeWork } from "./creative-work";
+import { ImageObject } from "./image-object";
+import { Person } from "./person";
+import { Place } from "./place";
+import { QuantitativeValue } from "./quantitative-value";
+import { Thing } from "./thing";
+
+export type Organization = Thing & {
     //acceptedPaymentMethod?: LoanOrCredit | PaymentMethod;
     actionableFeedbackPolicy?: CreativeWork | URL;
     //address?: PostalAddress | string;

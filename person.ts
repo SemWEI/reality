@@ -1,4 +1,9 @@
-type Person = {
+import { CreativeWork } from "./creative-work";
+import { Organization } from "./organization";
+import { QuantitativeValue } from "./quantitative-value";
+import { Thing } from "./thing";
+
+export type Person = {
     additionalName?: string;
     //address?: PostalAddress | string;
     affiliation?: Organization;

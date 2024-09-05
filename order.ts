@@ -1,4 +1,7 @@
-type Order = {
+import { Organization } from "./organization";
+import { Person } from "./person";
+
+export type Order = {
     //acceptedOffer?: Offer;
     //billingAddress?: PostalAddress;
     broker?: Organization | Person;

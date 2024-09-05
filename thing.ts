@@ -1,4 +1,9 @@
-type Thing = {
+import { CreativeWork } from "./creative-work";
+import { ImageObject } from "./image-object";
+import { PropertyValue } from "./property-value";
+import { TextObject } from "./text-object";
+
+export type Thing = {
     additionalType?: string | URL;
     alternateName?: string;
     description?: string | TextObject;

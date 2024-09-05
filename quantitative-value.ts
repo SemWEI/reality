@@ -1,3 +1,3 @@
-type QuantitativeValue = {
+export type QuantitativeValue = {
 
 }

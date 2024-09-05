@@ -1,1 +1,3 @@
-type TextObject = MediaObject & {}
+import { MediaObject } from "./media-object";
+
+export type TextObject = MediaObject & {}

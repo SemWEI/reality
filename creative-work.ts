@@ -1,5 +1,9 @@
+import { ImageObject } from "./image-object";
+import { MediaObject } from "./media-object";
+import { Thing } from "./thing";
+
 /*some fields excluded*/
-type CreativeWork = {
+export type CreativeWork = {
     about?: Thing;
     abstract?: string;
     accessMode?: string;

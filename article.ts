@@ -1,4 +1,6 @@
-type Article = CreativeWork & {
+import { CreativeWork } from "./creative-work";
+
+export type Article = CreativeWork & {
     articleBody?: string;
     articleSection?: string;
     backstory?: CreativeWork | string;

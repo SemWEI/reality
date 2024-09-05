@@ -1,4 +1,8 @@
-type Place = Thing & {
+import { ImageObject } from "./image-object";
+import { PropertyValue } from "./property-value";
+import { Thing } from "./thing";
+
+export type Place = Thing & {
     additionalProperty?: PropertyValue;
     //address?: PostalAddress | string;
     //aggregateRating?: AggregateRating;

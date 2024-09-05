@@ -1,4 +1,9 @@
-type Product = Thing & {
+import { ImageObject } from "./image-object";
+import { PropertyValue } from "./property-value";
+import { QuantitativeValue } from "./quantitative-value";
+import { Thing } from "./thing";
+
+export type Product = Thing & {
     additionalProperty?: PropertyValue;
     //aggregateRating?: AggregateRating;
     asin?: string | URL;
